@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{480E328A-34D0-404D-88E6-B599B71C4565}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\javascript\ajaxRequest.js = ..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\javascript\ajaxRequest.js
+		formVerification.js = formVerification.js
+		HTMLPage1.html = HTMLPage1.html
+		..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\javascript\login.js = ..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\javascript\login.js
+		..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\loginStyle.css = ..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\loginStyle.css
+		phpSignUpForm.php = phpSignUpForm.php
+		..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\postJson.php = ..\..\..\Downloads\CS490-Frontend-master\CS490-Frontend-master\postJson.php
+		StyleSheet1.css = StyleSheet1.css
+		StyleSheet2.css = StyleSheet2.css
+		Test1.php = Test1.php
+		..\..\..\Pictures\Saved Pictures\warehouseIcon.png = ..\..\..\Pictures\Saved Pictures\warehouseIcon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainPage", "MainPage", "{80A04B14-DEA6-47C1-B848-F65171C17440}"
+	ProjectSection(SolutionItems) = preProject
+		formVerification.js = formVerification.js
+		HTMLPage1.html = HTMLPage1.html
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{C67073B5-E09B-4E82-BE7B-BA661C1AED10}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CC8B502-77C3-4BE5-AFA8-4F61E9D6734A}
+	EndGlobalSection
+EndGlobal

@@ -88,7 +88,8 @@ a {
 
 /* FORM TYPOGRAPHY*/
 
-form input[type=button],form input[type=submit],form input[type=reset],form button {
+/* Submit button on form*/
+form input[type=button],form input[type=submit],form button {
     background-color: #56baed;
     border: none;
     color: white;
@@ -109,20 +110,20 @@ form input[type=button],form input[type=submit],form input[type=reset],form butt
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
-form input[type=button]:hover,form input[type=submit]:hover,form input[type=reset]:hover,form button:hover {
+/*Hover changes of submit button*/
+form input[type=button]:hover,form input[type=submit]:hover,form button:hover {
         background-color: rgb(55, 170, 230);
 }
-
-form input[type=button]:active,form input[type=submit]:active,form input[type=reset]:active,form button:hover {
+/*Onclick change of submit button*/
+form input[type=button]:active,form input[type=submit]:active,form button:hover {
         -moz-transform: scale(0.95);
         -webkit-transform: scale(0.95);
         -o-transform: scale(0.95);
         -ms-transform: scale(0.95);
         transform: scale(0.95);
 }
-
-form input[type=text],form input[type=password] {
+/*Form inputs*/
+form input[type=text],form input[type=password], form input[type=email], form input[type=tel] {
     background-color: rgb(245, 245, 245);
     border: none;
     color: #0d0d0d;
@@ -142,7 +143,7 @@ form input[type=text],form input[type=password] {
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
 }
-
+/*Form inputs change on current selected input*/
 form input[type=text]:focus,form input[type=password]:focus {
         background-color: #fff;
         border-bottom: 2px solid #5fbae9;

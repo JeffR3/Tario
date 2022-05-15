@@ -42,3 +42,25 @@ function login() {
 function signup() {
     alert("User signed up");
 }
+
+function signUpContactVerify() {
+    let emailInput = document.getElementsByName("email")[0];
+    let phoneInput = document.getElementsByName("phoneNumber")[0];
+    //Both values have no input
+    if (emailInput.value == '' && phoneInput.value == '') {
+        alert("Contact method required");
+        return;
+    }
+    //Email Input has a value and phone input doesn't
+    else if (emailInput.value != '' && phoneInput.value == '') {
+        emailInput.setAttribute('required', '');
+    }
+    //Phone input has a value and email doesn't
+    else if (emailInput.value == '' && phoneInput.value != '') {
+        phoneInput.setAttribute('required', '');
+    } else {
+        phoneInput.setAttribute('required', '');
+        emailInput.setAttribute('required', '');
+    }
+    document.getElementById("signUpForm").children[0].submit();
+}

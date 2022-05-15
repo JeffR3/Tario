@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="/assets/wareHouseIcon.png" type="image/icon type" /> 
+    <title>Tario | Inventory management system</title>
+
+    <script type="text/javascript" src="scripts/javascript/formVerification.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/mainStyle.css">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+
+            <!-- Tabs Titles -->
+            <div class="tab">
+                <button class="tablinks" id="defaultOpen" onClick="openPage(event, 'logInForm');"> Log In </button>
+                <button class="tablinks" onclick="openPage(event, 'signUpForm');">Sign Up </button>
+            </div>
+          
+            <!-- Icon -->
+            <!-- by popcorns-arts from www.flaticon.com-->
+            <div class="fadeIn first">
+                <img src="assets/warehouseIcon.png" id="icon" alt="User Icon" />
+            </div>
+
+            <!-- Login Form -->
+            <div id="logInForm" class="tabcontent">
+                <form method="POST" action="scripts/php/mainLogin.php">
+                    <input type="text" class="fadeIn" name="userID" placeholder="UserID" autocomplete="off" required="required" />
+                    <input type="password" class="fadeIn" name="password" placeholder="Password" required="required" />
+                    <input type="submit" class="fadeIn" value="Log In" />
+                </form>
+            </div>
+
+            <!---Sign Up Form-->
+            <div id="signUpForm" class="tabcontent">
+                <form method="POST" action="scripts/php/mainSignup.php">
+                    <input type="text" class="fadeIn" name="name" placeholder="Name" autocomplete="off" required />
+                    <input type="tel" class="fadeIn" name="phoneNumber" placeholder="Phone Number *" />
+                    <input type="email" class="fadeIn" name="email" placeholder="Email *"/>
+                    <input type="password" class=" fadeIn" name="password" placeholder="Enter New Password" required />
+                    <input type="button" onclick="signUpContactVerify();" class="fadeIn" value="Sign Up" />
+                    <p>* One contact method must be required</p>
+                </form>
+                
+            </div>
+            <script>
+                document.getElementById("defaultOpen").click();
+            </script>
+        </div>
+    </div>
+</body>
+</html>

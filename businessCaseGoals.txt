@@ -1,0 +1,20 @@
+Example problems scenario:
+
+Oliva Orchids resells fruits from different sources either as their own product (I.E. Olivia sells amy's apple from Amy Apple Shop) or 
+product bundled together (I.E. Olivia Apple basket #1 includes Amy's apples, Adam's apples, etc). 
+
+Olivia will also need to prep certain products or leave as is (I.E. Olivia needs bags for Apple basket #1 or to wash Amy's apple)
+
+Olivia will need to determine which product is more profitable (Olivia's basket #1 vs Amy's apple)
+
+Olivia needs to keep track of how many products incoming (I.E. How many apples did she buy from Amy? Adam?)
+
+Olivia needs to keep track how many products she currently has and are finished 
+(I.E. How many apples did she actually recieve from Amy? Which apples are cleaned and ready to be delivered? unclean?)
+
+Olivia workers need to know what group of products they should work on 
+(Olivia's workers must work on all apple since Applefest is coming up)
+
+Olivia workers need to know what to do with a product (Should they clean amy's apple or set aside for Olivia's basket?)
+
+Olivia needs to know how many products are being shipped out and to where (How many amy's apple did she sell to Mr. Applelove?)

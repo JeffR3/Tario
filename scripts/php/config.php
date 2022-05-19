@@ -1,4 +1,7 @@
 <?php
+//Goal: Making a basic connection to webserver, database, etc
+
+//Connection to database
 $servername = "localhost";
 $username = "root";
 $password = "";

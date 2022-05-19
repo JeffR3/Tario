@@ -33,16 +33,6 @@ function openPage(evt, formFillingOut) {
 // Get the element with id="defaultOpen" and click on it
 //document.getElementById("defaultOpen").click();
 
-//Retrieve login info, sending to server
-function login() {
-    alert("User logging in");
-}
-
-//Retrieve signup info, sending to server
-function signup() {
-    alert("User signed up");
-}
-
 function signUpContactVerify() {
     let emailInput = document.getElementsByName("email")[0];
     let phoneInput = document.getElementsByName("phoneNumber")[0];
@@ -58,7 +48,9 @@ function signUpContactVerify() {
     //Phone input has a value and email doesn't
     else if (emailInput.value == '' && phoneInput.value != '') {
         phoneInput.setAttribute('required', '');
-    } else {
+    }
+    //Both have input
+    else {
         phoneInput.setAttribute('required', '');
         emailInput.setAttribute('required', '');
     }

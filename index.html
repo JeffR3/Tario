@@ -22,7 +22,6 @@
             </div>
           
             <!-- Icon -->
-            <!-- by popcorns-arts from www.flaticon.com-->
             <div class="fadeIn first">
                 <img src="assets/warehouseIcon.png" id="icon" alt="User Icon" />
             </div>
@@ -40,11 +39,14 @@
             <div id="signUpForm" class="tabcontent">
                 <form method="POST" action="scripts/php/mainSignup.php">
                     <input type="text" class="fadeIn" name="name" placeholder="Name" autocomplete="off" required />
+                    
+                    <!--Employee contact method
                     <input type="tel" class="fadeIn" name="phoneNumber" placeholder="Phone Number *" />
                     <input type="email" class="fadeIn" name="email" placeholder="Email *"/>
+                    -->
                     <input type="password" class=" fadeIn" name="password" placeholder="Enter New Password" required />
-                    <input type="button" onclick="signUpContactVerify();" class="fadeIn" value="Sign Up" />
-                    <p>* One contact method must be required</p>
+                    <input type="submit"  class="fadeIn" value="Sign Up" />
+                    <p>* Contact method not required</p>
                 </form>
                 
             </div>

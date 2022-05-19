@@ -18,3 +18,5 @@ Olivia workers need to know what group of products they should work on
 Olivia workers need to know what to do with a product (Should they clean amy's apple or set aside for Olivia's basket?)
 
 Olivia needs to know how many products are being shipped out and to where (How many amy's apple did she sell to Mr. Applelove?)
+
+3 workers
